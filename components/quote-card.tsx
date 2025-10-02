@@ -5,7 +5,7 @@ import { Button } from "./ui/button"
 import { HeartIcon, MessageCircleIcon, BookmarkIcon } from "lucide-react"
 import { CommentModal } from "./comment-modal"
 
-interface QuoteCardProps {
+export type QuoteCardProps = {
   quote: string
   genre: string
   author?: string
